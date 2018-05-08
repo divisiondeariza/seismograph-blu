@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Iván Duque",
+    "id": "duque",
+    "color": "#2cc3ff"
+  },
+  {
+    "name": "Gustavo Petro",
+    "id": "petro",
+    "color": "#fedd14"
+  },
+  {
+    "name": "Sergio Fajardo",
+    "id": "fajardo",
+    "color": "#29b574"
+  },
+  {
+    "name": "Germán Vargas Lleras",
+    "id": "vargas",
+    "color": "#642b8f"
+  },
+  {
+    "name": "Humberto De La Calle",
+    "id": "delacalle",
+    "color": "#eb1c24"
+  }
+]

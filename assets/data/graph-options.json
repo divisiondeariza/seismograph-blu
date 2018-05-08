@@ -1,0 +1,36 @@
+{
+  "chart": {
+    "type": "lineChart",
+    "height": 300,
+    "useInteractiveGuideline": true,
+    "xAxis": {
+      "axisLabel": "fecha"
+    },
+    "yAxis": {},
+    "legend": {
+      "rightAlign:": false,
+      "align": true,
+      "updateState": false,
+      "margin": {
+        "left": -27,
+        "rigth": -40,
+        "bottom": 30
+      },
+      "padding": 25
+    },
+    "margin": {
+      "left": 33,
+      "rigth": 0
+    },
+    "color":[
+      "#eb1c24",
+      "#2cc3ff",
+      "#29b574",
+      "#fedd14"
+    ],
+    "noData": "Por favor seleccione los datos requeridos"
+  },
+  "interactiveLayer": {
+    "tooltip": {}
+  }
+}
