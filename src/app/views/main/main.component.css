@@ -1,7 +1,7 @@
 h1{
 	width: 100%;
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -30,6 +30,7 @@ ng-select{
 	width: 100%;
 	background-color: #b1b1b1 ;
 	border-radius: 2rem;
+	padding: 1px;
 }
 
 
@@ -47,7 +48,17 @@ ng-select{
 
 
 .source-select{
-	font-family: 'Merriweather', serif;
+	font-family: 'Montserrat', serif;
+}
+
+.source-select-title{
+	margin: auto;
+	padding: 0 5px;
+}
+
+
+.source-select-title h6{
+	font-weight: 700;
 }
 
 .last-updated{

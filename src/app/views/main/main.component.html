@@ -7,22 +7,22 @@
 
 	<div class="row source-select">
 
-		<div class="col-12">
-			<h6 class="text-center">Red a analizar.</h6>
+		<div class="col-12 col-sm-3 source-select-title">
+			<h6 class="text-center">Red a analizar: </h6>
 		</div>
 
 
-		<div class="col-12 text-center">
+		<div class="col-12 col-sm-9 text-center">
 			<div class="row">
 				<div class="col-4 btn-col">
 					<label class="btn btn-primary" [(ngModel)]="source" btnRadio="facebook">Facebook</label>
+				</div>
+				<div class="col-4 btn-col">
+					<label class="btn btn-primary" [(ngModel)]="source" btnRadio="twitter">Twitter</label>
 				</div>	
 				<div class="col-4 btn-col">
 					<label class="btn btn-primary" [(ngModel)]="source" btnRadio="all">Todas</label>
 				</div>		
-				<div class="col-4 btn-col">
-					<label class="btn btn-primary" [(ngModel)]="source" btnRadio="twitter">Twitter</label>
-				</div>
 			</div>
 
 		</div>		
