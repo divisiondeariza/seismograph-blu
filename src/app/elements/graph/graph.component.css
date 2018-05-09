@@ -1,5 +1,5 @@
 :host >>> .nv-noData { 
-		font-family: 'Roboto', sans-serif !important;
+		font-family: 'Montserrat', sans-serif !important;
 		font-weight: normal;
 }
 
@@ -21,11 +21,11 @@
 }
 
 :host >>> svg {
-	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Montserrat', sans-serif !important;
 }
 
 :host >>> .nvd3 text{
-	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Montserrat', sans-serif !important;
 	fill: #85888c;
 }
 

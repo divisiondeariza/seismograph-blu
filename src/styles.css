@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700|Merriweather:300|Open+Sans|Roboto:300,400');
 
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 800px) and (hover: none) {

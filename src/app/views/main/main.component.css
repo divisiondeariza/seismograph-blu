@@ -9,6 +9,10 @@ h1{
 	h1{
 		font-size: 7vw;
 	}
+
+	.btn-col{
+		padding: 0 1px;
+	}
 }
 
 ng-select{
@@ -22,13 +26,17 @@ ng-select{
 }
 
 .btn{
-	border-color:black;
-	background-color: black;
+	border: 0;
+	width: 100%;
+	background-color: #b1b1b1 ;
+	border-radius: 2rem;
 }
 
+
+
 .btn-primary.active{
-	color:black !important;
-	background-color: white !important;
+	color:white !important;
+	background-color: #0a549d !important;
    border-color:black  !important;;
 }
 

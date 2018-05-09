@@ -4,6 +4,30 @@
 			SISMÓGRAFO ELECTORAL
 		</h1>
 	</div>
+
+	<div class="row source-select">
+
+		<div class="col-12">
+			<h6 class="text-center">Red a analizar.</h6>
+		</div>
+
+
+		<div class="col-12 text-center">
+			<div class="row">
+				<div class="col-4 btn-col">
+					<label class="btn btn-primary" [(ngModel)]="source" btnRadio="facebook">Facebook</label>
+				</div>	
+				<div class="col-4 btn-col">
+					<label class="btn btn-primary" [(ngModel)]="source" btnRadio="all">Todas</label>
+				</div>		
+				<div class="col-4 btn-col">
+					<label class="btn btn-primary" [(ngModel)]="source" btnRadio="twitter">Twitter</label>
+				</div>
+			</div>
+
+		</div>		
+	</div>
+
 	<app-select-panel (modeChange)="changeMode($event)"
 					  (candidatesChange)="changeCandidates($event)"
 					  (themesChange)="changeThemes($event)"
@@ -19,22 +43,6 @@
 				   [source]="source"			
 	    	></app-graph>	
 
-	<div class="row source-select">
-
-		<div class="col-12">
-			<h6 class="text-center">Red Analizada.</h6>
-		</div>
-
-
-		<div class="col-sm-6 offset-sm-3 text-center">
-			<div class="btn-group">
-				<label class="btn btn-primary" [(ngModel)]="source" btnRadio="facebook">Facebook</label>
-				<label class="btn btn-primary" [(ngModel)]="source" btnRadio="all">Todas</label>
-				<label class="btn btn-primary" [(ngModel)]="source" btnRadio="twitter">Twitter</label>
-			</div>
-
-		</div>		
-	</div>
 	<div class="row">
 		<div class="last-updated col-12">
 			<span>Última actualización:</span>
